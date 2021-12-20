@@ -4,14 +4,13 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "a": "ts-node aa.ts"
+    "start": "ts-node index.ts"
   },
   "devDependencies": {
     "ts-node": "^10.4.0",
     "typescript": "^4.5.4"
   },
   "dependencies": {
-    "@polymathnetwork/polymesh-sdk": "12.0.0",
-    "polymesh-local": "^3.5.3"
-  }
+    "@polymathnetwork/polymesh-sdk": "12.0.0"
+    }
 }
