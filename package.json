@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "license": "UNLICENSED",
   "scripts": {
+    "git-lfs-fetch": "git lfs fetch",
     "share-terminal-tab1": "tty-share --public --listen localhost:8001",
     "share-terminal-tab2": "tty-share --public --listen localhost:8002",
     "postinstall": "node -e \"!process.env.SKIP_POST_INSTALL && require('child_process').execSync('yarn husky install',{ stdio: 'inherit' })\"",
