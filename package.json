@@ -14,7 +14,9 @@
     "build": "yarn tsc -b tsconfig-build.json",
     "build:watch": "yarn clean && yarn build --watch",
     "start:ui": "yarn workspace ui run start:dev",
-    "start:script": "yarn workspace development run start"
+    "start:script": "yarn workspace development run start",
+    "start:polymesh-node:testnet": "yarn workspace development run start:polymesh-node --chain testnet",
+    "start:polymesh-node:mainnet": "yarn workspace development run start:polymesh-node --chain mainnet"
   },
   "repository": {
     "url": "https://github.com/stavalfi/polymesh-poc"

@@ -6,7 +6,8 @@
   "types": "dist/src/index.d.ts",
   "scripts": {
     "start": "node -r esbuild-register -r tsconfig-paths/register src/polymesh.ts",
-    "clean": "node -r esbuild-register -r tsconfig-paths/register src/clean.ts"
+    "clean": "node -r esbuild-register -r tsconfig-paths/register src/clean.ts",
+    "start:polymesh-node": "./src/polymesh-node-executable"
   },
   "dependencies": {
     "@polymathnetwork/polymesh-sdk": "12.0.0"
