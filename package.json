@@ -10,7 +10,7 @@
     "lint:code": "eslint --cache --max-warnings 0 'packages/**/src/**/*.{ts,d.ts}'",
     "lint:versions": "syncpack list-mismatches",
     "test": "jest",
-    "clean": "yarn workspace @octopol/development run clean",
+    "clean": "yarn workspace development run clean",
     "build": "yarn tsc -b tsconfig-build.json",
     "build:watch": "yarn clean && yarn build --watch",
     "start:ui": "yarn workspace ui run start:dev",
