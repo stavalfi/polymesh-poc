@@ -1,11 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { Polymesh } from './components'
+import { PolymeshTokens } from './components'
 import './main.css'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Polymesh />
+    <PolymeshTokens />
   </React.StrictMode>,
   document.getElementById('root'),
 )
