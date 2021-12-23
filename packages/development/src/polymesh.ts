@@ -1,4 +1,4 @@
-import { Polymesh } from '@polymathnetwork/polymesh-sdk'
+import { Polymesh } from 'fork1-polymathnetwork-polymesh-sdk'
 
 process.on('uncaughtException', error => console.log('stav1', error))
 process.on('uncaughtExceptionMonitor', error => console.log('stav1', error))

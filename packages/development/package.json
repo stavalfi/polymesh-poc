@@ -10,7 +10,7 @@
     "start:polymesh-node": "./src/polymesh-node-executable"
   },
   "dependencies": {
-    "@polymathnetwork/polymesh-sdk": "12.0.0"
+    "fork1-polymathnetwork-polymesh-sdk": "12.0.0"
   },
   "devDependencies": {
     "@types/node": "16.7.1",
@@ -39,6 +39,6 @@
     "ts-jest": "^26.5.4",
     "ts-node": "10.2.1",
     "tsconfig-paths": "^3.10.1",
-    "typescript": "4.1.3"
+    "typescript": "4.5.4"
   }
 }
